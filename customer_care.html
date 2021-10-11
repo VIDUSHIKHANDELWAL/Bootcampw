@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('cake.jpg');
+  
+}
+
+
+
+h1{
+  margin-left: 100px;
+  margin-top: -70px;
+  color: white;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkorange;
+}
+
+
+
+input[type=text],[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #301934;
+  color: white;
+  margin-left: 40%;
+  padding: 12px 20px;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+	text-align: center;
+  background-color: #45a049;
+}
+
+.container {
+	margin-top: 5%;
+  border-radius: 5px;
+  width:50%;
+  background-color: #f2f2f2 ;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+  <img src="cake_logo.jpg" alt="abcd" height="70px" width="70px"><h1>CAKE WORLD</h1>
+<br>
+<br>
+
+<ul>
+  <li><a href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/index.html">Home</a></li>
+  <li><a href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/flexbox.html">Gallery</a></li>
+  <li><a class="active" href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/customer_care.html">Contact</a></li>
+ 
+</ul>
+
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write your query.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+</style>
+</head>
+<body>
+
+
+</body>
+</html>

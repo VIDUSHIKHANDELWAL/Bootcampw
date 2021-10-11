@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cake World</title>
+</head>
+<body>
+
+	<style>
+		
+h1{
+	margin-left: 100px;
+	margin-top: -70px;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkorange;
+}
+
+
+
+
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button{
+	color: black;
+	background-color: darkgrey;
+	 border-right:1px solid #bbb;
+	 font-size: 17px;
+	 height: 50px;
+	 width: 350px;
+}
+
+	</style>
+
+<img src="cake_logo.jpg" alt="abcd" height="100px" width="100px"><h1>CAKE WORLD</h1>
+<br>
+<br>
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/index.html">Home</a></li>
+  <li><a href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/flexbox.html">Gallery</a></li>
+  <li><a href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/customer_care.html">Contact</a></li>
+  <li style="float:right"><button onclick="myFunction()">CUSTOMER CARE</button></li>
+</ul>
+
+<br>
+<br>
+
+<script>
+function myFunction() {
+  alert("Contact us on : 8373927392 or Email us on : cakeworld456@gmail.com");
+
+}
+</script>
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/butterscoth.html">
+      <img src="download.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">
+    	Cake Flavour- Butterscotch</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/Chocolate.html">
+      <img src="download1.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Cake Flavour- Chocolate</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/Bwr.html">
+      <img src="download2.jpeg" alt="Northern Lights" width="600" height="500">
+    </a>
+    <div class="desc">Cake Flavour- Butterscotch With Rasmalai</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="file:///C:/Users/Vidushi/Desktop/Vidushi%20MCA/DSC%20BOOTCAMP/SfondantCake.html">
+      <img src="download5.jpeg" alt="Mountains" width="600" height="200">
+    </a>
+    <div class="desc">Type of Cake- Semi Fondant Cake</div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
